@@ -44,7 +44,8 @@
 
 프로젝트에서 사용한 Behavior Tree의 핵심 구조는 아래와 같습니다.
 
-```text
+<pre>
+<code>
 Sequence
  ├─ HasGoal        # goal 수신 여부 + home_pose 저장
  ├─ MoveToGoal     # Nav2 /navigate_to_pose 로 목표 지점 이동
@@ -64,7 +65,8 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
 
 캡처된 이미지는 ~/bt_images/capture_YYYYMMDD_HHMMSS.png 형태로 저장
 
----
+</code>
+</pre>
 
 ## 📂 프로젝트 구조
 
