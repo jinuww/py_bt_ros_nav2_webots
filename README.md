@@ -113,8 +113,8 @@ ros2 run bt_image_capture bt_take_picture
 </pre>
 
 3) Behavior Tree 실행 (py_bt_ros)
-<code>
 <pre>
+<code>
 cd ~/py_bt_ros
 source ~/webots_ros2_ws/install/local_setup.bash
 
