@@ -55,7 +55,8 @@ Sequence
 </pre>
 
 ## 🏗 시스템 구조
-
+<pre>
+<code>
 RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color)
           │                                         │
           ▼                                         ▼
@@ -66,7 +67,8 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
     └─ Return ─────────> Nav2 /navigate_to_pose
 
 캡처된 이미지는 ~/bt_images/capture_YYYYMMDD_HHMMSS.png 형태로 저장
-
+</code>
+</pre>
 
 ---
 ## 📂 프로젝트 구조
@@ -141,7 +143,7 @@ Topic을 /bt/goal_pose 로 변경
 ---
 ## 🧩 사용 기술 & 역할
 
-ROS2 Humble
+- ROS2 Humble
 
 Nav2 액션 클라이언트/서버 연동
 
