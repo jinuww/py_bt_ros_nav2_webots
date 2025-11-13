@@ -67,9 +67,11 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
 
 </code>
 </pre>
-
+---
 ## 📂 프로젝트 구조
 
+<pre>
+<code>
 .
 ├── README.md
 ├── py_bt_ros/
@@ -83,12 +85,18 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
     ├── setup.py
     └── bt_image_capture/
         └── take_picture_node.py      # /bt/capture_image 서비스 서버 노드
+</code>
+</pre>
 
-## 실행방법
-```bash
+## 🚀 실행방법
+<pre>
+<code>
+
 cd ~/webots_ros2_ws
 source install/local_setup.bash
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
 
+</code>
+</pre>
 
 
