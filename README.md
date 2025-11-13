@@ -123,7 +123,7 @@ source ~/webots_ros2_ws/install/local_setup.bash
 python3 main.py --config config_nav2.yaml
 </code>
 </pre>
-
+ 
 4) RViz에서 미션 수행
 
   1. RViz에서 2D Goal Pose 도구 선택
