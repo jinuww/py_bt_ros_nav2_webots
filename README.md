@@ -64,6 +64,8 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
 
 캡처된 이미지는 ~/bt_images/capture_YYYYMMDD_HHMMSS.png 형태로 저장
 
+---
+
 ## 📂 프로젝트 구조
 
 .
