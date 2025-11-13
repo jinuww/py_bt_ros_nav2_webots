@@ -50,3 +50,41 @@ Sequence
  ├─ MoveToGoal     # Nav2 /navigate_to_pose 로 목표 지점 이동
  ├─ CaptureImage   # /bt/capture_image 서비스 호출 (이미지 1장 저장)
  └─ Return         # home_pose 로 복귀 후 블랙보드 초기화
+
+## 🏗 시스템 구조
+
+RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color)
+          │                                         │
+          ▼                                         ▼
+    [py_bt_ros]                             [ImageCaptureNode]
+    ├─ HasGoal                              └─ /bt/capture_image (Trigger 서비스)
+    ├─ MoveToGoal ──────> Nav2 /navigate_to_pose
+    ├─ CaptureImage ────> /bt/capture_image
+    └─ Return ─────────> Nav2 /navigate_to_pose
+
+캡처된 이미지는 ~/bt_images/capture_YYYYMMDD_HHMMSS.png 형태로 저장
+
+## 📂 프로젝트 구조
+
+.
+├── README.md
+├── py_bt_ros/
+│   ├── config_nav2.yaml              # Nav2 + Webots 환경용 BT 설정
+│   └── scenarios/
+│       └── nav2_webots/
+│           ├── bt_nodes.py           # HasGoal / MoveToGoal / CaptureImage / Return
+│           └── default_bt.xml        # Behavior Tree 정의
+└── bt_image_capture/                 # 이미지 캡처 서비스 패키지
+    ├── package.xml
+    ├── setup.py
+    └── bt_image_capture/
+        └── take_picture_node.py      # /bt/capture_image 서비스 서버 노드
+
+## 실행방법
+```bash
+cd ~/webots_ros2_ws
+source install/local_setup.bash
+ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
+
+
+
