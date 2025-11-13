@@ -38,7 +38,7 @@
 
 이 과정 전체는 `py_bt_ros` 를 활용한 **Behavior Tree**로 제어됩니다.
 
----
+
 
 ## 🧠 Behavior Tree 구조
 
@@ -70,7 +70,7 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
 </code>
 </pre>
 
----
+
 ## 📂 프로젝트 구조
 
 <pre>
@@ -90,7 +90,7 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
         └── take_picture_node.py      # /bt/capture_image 서비스 서버 노드
 </code>
 </pre>
----
+
 
 ## 🚀 실행방법
 1) Webots + Nav2 실행
@@ -140,7 +140,7 @@ python3 main.py --config config_nav2.yaml
   
     - 최초 위치로 복귀(Return)
 
----
+
 ## 🧩 사용 기술 & 역할
 
 - ROS2 Humble
