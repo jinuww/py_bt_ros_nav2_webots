@@ -1,2 +1,54 @@
 # py_bt_ros_nav2_webots
 Behavior Tree based Nav2 mission on Webots using py_bt_ros (Goal → Capture Image → Return Home)
+<p align="center">
+  <img src="docs/hero.gif" alt="BT Nav2 Webots Mission Demo" width="600" />
+</p>
+
+<h1 align="center">Webots + Nav2 + Behavior Tree 미션 데모</h1>
+
+<p align="center">
+  Webots 환경에서 TurtleBot3가 <b>목표 이동 → 이미지 캡처 → 원위치 복귀</b>를 수행하는 ROS2 Behavior Tree 프로젝트
+</p>
+
+<p align="center">
+  <!-- 예시 뱃지들, 필요 없으면 지워도 됨 -->
+  <img src="https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sim-Webots-00BFFF?logo=webots&logoColor=white" />
+  <img src="https://img.shields.io/badge/Robot-TurtleBot3-green?logo=ros" />
+  <img src="https://img.shields.io/badge/BT-py_bt_ros-blueviolet" />
+  <img src="https://img.shields.io/badge/Language-Python3-yellow" />
+</p>
+
+---
+
+## ✨ 프로젝트 소개
+
+이 프로젝트는 Webots 시뮬레이터에서 TurtleBot3가 다음과 같은 **3단계 미션**을 수행하도록 만든 ROS2 기반 Behavior Tree 데모입니다.
+
+1. **목표 지점 이동**  
+   - RViz에서 `/bt/goal_pose` 로 목표를 지정하면  
+   - Nav2의 `/navigate_to_pose` 액션을 통해 해당 지점까지 자율 주행
+
+2. **도착 지점에서 이미지 1장 캡처**  
+   - `/TurtleBot3Burger/front_camera/image_color` 토픽을 수신하는  
+     이미지 캡처 서비스 서버(`/bt/capture_image`)를 호출하여  
+   - 도착 시점의 카메라 이미지를 **한 장만 저장**
+
+3. **초기 위치로 복귀(Return)**  
+   - 첫 goal이 들어올 때의 `/amcl_pose` 를 `home_pose` 로 저장해 두었다가  
+   - Nav2 액션을 다시 사용해 최초 위치로 되돌아감
+
+이 과정 전체는 `py_bt_ros` 를 활용한 **Behavior Tree**로 제어됩니다.
+
+---
+
+## 🧠 Behavior Tree 구조
+
+프로젝트에서 사용한 Behavior Tree의 핵심 구조는 아래와 같습니다.
+
+```text
+Sequence
+ ├─ HasGoal        # goal 수신 여부 + home_pose 저장
+ ├─ MoveToGoal     # Nav2 /navigate_to_pose 로 목표 지점 이동
+ ├─ CaptureImage   # /bt/capture_image 서비스 호출 (이미지 1장 저장)
+ └─ Return         # home_pose 로 복귀 후 블랙보드 초기화
