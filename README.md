@@ -126,19 +126,19 @@ python3 main.py --config config_nav2.yaml
 
 4) RViz에서 미션 수행
 
-RViz에서 2D Goal Pose 도구 선택
+1. RViz에서 2D Goal Pose 도구 선택
 
-Topic을 /bt/goal_pose 로 변경
+2. Topic을 /bt/goal_pose 로 변경
 
-지도의 임의의 지점을 클릭하여 목표 설정
+3. 지도의 임의의 지점을 클릭하여 목표 설정
 
-이후 자동 플로우
+4. 이후 자동 플로우
 
-로봇이 Nav2를 통해 목표 지점으로 이동
+  - 로봇이 Nav2를 통해 목표 지점으로 이동
 
-도착 후 이미지 1장 캡처 (~/bt_images/ 에 저장)
+  - 도착 후 이미지 1장 캡처 (~/bt_images/ 에 저장)
 
-최초 위치로 복귀(Return)
+  - 최초 위치로 복귀(Return)
 
 ---
 ## 🧩 사용 기술 & 역할
