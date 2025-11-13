@@ -145,26 +145,26 @@ Topic을 /bt/goal_pose 로 변경
 
 - ROS2 Humble
 
-Nav2 액션 클라이언트/서버 연동
+  - Nav2 액션 클라이언트/서버 연동
 
-서비스/토픽 인터페이스 설계
+  - 서비스/토픽 인터페이스 설계
 
-py_bt_ros
+- py_bt_ros
 
-Behavior Tree 노드 설계 (Condition / Action)
+  - Behavior Tree 노드 설계 (Condition / Action)
 
-블랙보드 기반 상태 공유 및 미션 관리
+  - 블랙보드 기반 상태 공유 및 미션 관리
 
-Webots + TurtleBot3
+- Webots + TurtleBot3
 
-시뮬레이션 환경 설정 및 센서/액추에이터 연동
+  - 시뮬레이션 환경 설정 및 센서/액추에이터 연동
 
-OpenCV + cv_bridge
+- OpenCV + cv_bridge
 
-ROS Image → OpenCV 이미지 변환
+  - ROS Image → OpenCV 이미지 변환
 
-특정 시점(도착 시점)의 이미지 파일 저장 로직 구현
+  - 특정 시점(도착 시점)의 이미지 파일 저장 로직 구현
 
-Python
+- Python
 
-ROS2 노드, BT 노드, 서비스 서버/클라이언트 구현
+  - ROS2 노드, BT 노드, 서비스 서버/클라이언트 구현
