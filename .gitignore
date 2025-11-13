@@ -1,0 +1,5 @@
+webots_ros2_ws/build/
+webots_ros2_ws/install/
+webots_ros2_ws/log/
+**/__pycache__/
+*.pyc
