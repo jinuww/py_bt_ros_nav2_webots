@@ -39,7 +39,7 @@
 이 과정 전체는 `py_bt_ros` 를 활용한 **Behavior Tree**로 제어됩니다.
 
 ---
----
+
 ## 🧠 Behavior Tree 구조
 
 프로젝트에서 사용한 Behavior Tree의 핵심 구조는 아래와 같습니다.
