@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info
+writing ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/PKG-INFO
+writing dependency_links to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/dependency_links.txt
+writing requirements to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/requires.txt
+writing top-level names to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/top_level.txt
+writing manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+reading manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+writing manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build
+creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib
+creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+copying webots_ros2_tests/plugin_test.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+copying webots_ros2_tests/__init__.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+copying webots_ros2_tests/utils.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+running install
+running install_lib
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/plugin_test.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/__init__.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/utils.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/plugin_test.py to plugin_test.cpython-310.pyc
+byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/utils.py to utils.cpython-310.pyc
+running install_data
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+copying resource/webots_ros2_tests -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+copying package.xml -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+copying worlds/driver_test.wbt -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+copying worlds/.driver_test.wbproj -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+copying resource/driver_test.urdf -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+running install_egg_info
+Copying ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info to /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests-2025.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/install.log'

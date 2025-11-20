@@ -1,0 +1,43 @@
+[0.389s] Invoking command in '/home/jinwoo/webots_ros2_ws/src/webots_ros2/webots_ros2_tests': AMENT_PREFIX_PATH=/home/jinwoo/webots_ros2_ws/install/webots_ros2_turtlebot:/home/jinwoo/webots_ros2_ws/install/webots_ros2:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests:/home/jinwoo/webots_ros2_ws/install/webots_ros2_control:/home/jinwoo/webots_ros2_ws/install/webots_ros2_driver:/home/jinwoo/webots_ros2_ws/install/webots_ros2_msgs:/home/jinwoo/webots_ros2_ws/install/bt_image_capture:/opt/ros/humble PYTHONPATH=/home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/jinwoo/webots_ros2_ws/install/bt_image_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_tests build --build-base /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build install --record /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/install.log --single-version-externally-managed install_data
+[0.534s] running egg_info
+[0.535s] creating ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info
+[0.535s] writing ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/PKG-INFO
+[0.536s] writing dependency_links to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/dependency_links.txt
+[0.536s] writing requirements to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/requires.txt
+[0.536s] writing top-level names to ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/top_level.txt
+[0.536s] writing manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[0.537s] reading manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[0.537s] writing manifest file '../../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[0.537s] running build
+[0.537s] running build_py
+[0.537s] creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build
+[0.537s] creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib
+[0.537s] creating /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[0.538s] copying webots_ros2_tests/plugin_test.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[0.538s] copying webots_ros2_tests/__init__.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[0.538s] copying webots_ros2_tests/utils.py -> /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[0.538s] running install
+[0.538s] running install_lib
+[0.538s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[0.538s] copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/plugin_test.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[0.538s] copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/__init__.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[0.538s] copying /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/utils.py -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[0.538s] byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/plugin_test.py to plugin_test.cpython-310.pyc
+[0.538s] byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/__init__.py to __init__.cpython-310.pyc
+[0.538s] byte-compiling /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/utils.py to utils.cpython-310.pyc
+[0.539s] running install_data
+[0.539s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index
+[0.539s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index
+[0.539s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+[0.539s] copying resource/webots_ros2_tests -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+[0.539s] copying package.xml -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests
+[0.539s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[0.539s] copying worlds/driver_test.wbt -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[0.539s] copying worlds/.driver_test.wbproj -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[0.539s] creating /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+[0.539s] copying resource/driver_test.urdf -> /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+[0.539s] running install_egg_info
+[0.540s] Copying ../../../build/webots_ros2_tests/webots_ros2_tests.egg-info to /home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests-2025.0.1-py3.10.egg-info
+[0.540s] running install_scripts
+[0.553s] writing list of installed files to '/home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/install.log'
+[0.567s] Invoked command in '/home/jinwoo/webots_ros2_ws/src/webots_ros2/webots_ros2_tests' returned '0': AMENT_PREFIX_PATH=/home/jinwoo/webots_ros2_ws/install/webots_ros2_turtlebot:/home/jinwoo/webots_ros2_ws/install/webots_ros2:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests:/home/jinwoo/webots_ros2_ws/install/webots_ros2_control:/home/jinwoo/webots_ros2_ws/install/webots_ros2_driver:/home/jinwoo/webots_ros2_ws/install/webots_ros2_msgs:/home/jinwoo/webots_ros2_ws/install/bt_image_capture:/opt/ros/humble PYTHONPATH=/home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/jinwoo/webots_ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/jinwoo/webots_ros2_ws/install/bt_image_capture/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_tests build --build-base /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/build install --record /home/jinwoo/webots_ros2_ws/build/webots_ros2_tests/install.log --single-version-externally-managed install_data

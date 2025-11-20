@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/bt_image_capture/bt_image_capture.egg-info/PKG-INFO
+writing dependency_links to ../../build/bt_image_capture/bt_image_capture.egg-info/dependency_links.txt
+writing entry points to ../../build/bt_image_capture/bt_image_capture.egg-info/entry_points.txt
+writing requirements to ../../build/bt_image_capture/bt_image_capture.egg-info/requires.txt
+writing top-level names to ../../build/bt_image_capture/bt_image_capture.egg-info/top_level.txt
+reading manifest file '../../build/bt_image_capture/bt_image_capture.egg-info/SOURCES.txt'
+writing manifest file '../../build/bt_image_capture/bt_image_capture.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jinwoo/webots_ros2_ws/install/bt_image_capture/lib/python3.10/site-packages/bt_image_capture-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/bt_image_capture/bt_image_capture.egg-info to /home/jinwoo/webots_ros2_ws/install/bt_image_capture/lib/python3.10/site-packages/bt_image_capture-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bt_take_picture script to /home/jinwoo/webots_ros2_ws/install/bt_image_capture/lib/bt_image_capture
+writing list of installed files to '/home/jinwoo/webots_ros2_ws/build/bt_image_capture/install.log'

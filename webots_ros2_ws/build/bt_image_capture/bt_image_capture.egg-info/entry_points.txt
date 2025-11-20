@@ -1,0 +1,3 @@
+[console_scripts]
+bt_take_picture = bt_image_capture.take_picture_node:main
+
