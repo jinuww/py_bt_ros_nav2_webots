@@ -1,4 +1,3 @@
-# py_bt_ros_nav2_webots
 
 <p align="center">
   <img src="docs/hero.gif" alt="BT Nav2 Webots Mission Demo" width="600" />
