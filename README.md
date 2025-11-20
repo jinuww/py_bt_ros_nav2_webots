@@ -96,7 +96,7 @@ RViz (/bt/goal_pose)          Camera (/TurtleBot3Burger/front_camera/image_color
 1) Webots + Nav2 실행
 <pre>
 <code>
-cd ~/webots_ros2_ws
+cd webots_ros2_ws
 source install/local_setup.bash
 
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
@@ -106,7 +106,7 @@ ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
 2) 이미지 캡처 서비스 노드 실행
 <pre>
 <code>
-cd ~/webots_ros2_ws
+cd webots_ros2_ws
 source install/local_setup.bash
 
 ros2 run bt_image_capture bt_take_picture
@@ -116,7 +116,7 @@ ros2 run bt_image_capture bt_take_picture
 3) Behavior Tree 실행 (py_bt_ros)
 <pre>
 <code>
-cd ~/py_bt_ros
+cd py_bt_ros
 source ~/webots_ros2_ws/install/local_setup.bash
 
 python3 main.py --config config_nav2.yaml
